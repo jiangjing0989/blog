@@ -26,7 +26,7 @@ languages:
     languageCode: fr-FR
     languageName: "Français"
     weight: 4
-    
+
 # 时区设置
 timeZone: 'Asia/Tokyo'                   # 时区设置
 
@@ -76,6 +76,38 @@ params:
 params:
   home:
     recentPostsCount: 5
+
+# 文章页面配置
+  post:
+    showRelated: true           # 相关文章展示
+    relatedPostsCount: 3        # 相关文章卡片数量
+
+    license:
+      show: true
+      author: Hugo Narrow
+      name: "CC BY-NC-SA 4.0"
+      description: "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please attribute the source, use non-commercially, and maintain the same license."
+      url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      displayName: "CC BY-NC-SA 4.0"
+
+# 输出配置
+outputs:
+  home: ["HTML", "RSS", "JSON", "WebAppManifest"]
+
+# 自定义输出 WebManifest
+outputFormats:
+  WebAppManifest:
+    mediaType: "application/manifest+json"
+    baseName: "site"
+    isPlainText: true
+
+# 阅读进度
+readingProgress:
+  enabled: true
+  height: 3
+  showOnHomepage: false
+  smoothScroll: true
+  hideOnComplete: false
 
 # 主导航菜单配置
 menus:
