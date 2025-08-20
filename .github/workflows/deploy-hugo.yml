@@ -16,28 +16,21 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      # 步骤 1: 检出 Hugo 仓库代码到 'blog-repo' 目录
+      # 步骤 1: 检出 Hugo 仓库代码
       - name: Checkout Hugo Repo
         uses: actions/checkout@v4
         with:
-          repository: jiangjing0989/blog # 你的 Hugo 仓库名
-          path: blog-repo # 克隆到名为 'blog-repo' 的目录
           submodules: true
           fetch-depth: 0
 
-      # 步骤 2: 检出 Obsidian 笔记仓库的内容到 'note-repo' 目录
+      # 步骤 2: 检出 Obsidian 仓库笔记到 content 目录
       - name: Checkout Obsidian Notes
         uses: actions/checkout@v4
         with:
-          repository: jiangjing0989/note # 你的 Obsidian 仓库名
-          path: note-repo # 克隆到名为 'note-repo' 的目录
+          repository: jiangjing0989/note # 替换成你的 Obsidian 仓库名
           token: ${{ secrets.PAT_FOR_OBSIDIAN }}
-
-      # 步骤 3: 复制笔记内容到 Hugo 仓库的 content 文件夹
-      - name: Copy Notes to Hugo Content
-        run: |
-          mkdir -p blog-repo/content # 确保目标文件夹存在
-          cp -r note-repo/* blog-repo/content/ # 复制所有文件和文件夹
+          path: content  # 将笔记克隆到 Hugo 仓库的 content 目录
+          ref: main # 替换成你的 Obsidian 仓库主分支名
 
       # 步骤 3: 设置 Hugo 环境
       - name: Setup Hugo
@@ -49,13 +42,12 @@ jobs:
       # 步骤 4: 构建 Hugo 静态站点
       - name: Build Hugo Site
         run: hugo --minify
-        working-directory: blog-repo # 确保在正确的目录下执行命令
 
       # 步骤 5: 将生成的站点发布到 GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.PAT_FOR_OBSIDIAN }}
-          publish_dir: blog-repo/public
+          publish_dir: ./public
           # 如果你的 GitHub Pages 分支不是 gh-pages，需要在这里指定
           # publish_branch: main
