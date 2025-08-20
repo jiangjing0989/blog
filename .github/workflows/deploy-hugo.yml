@@ -49,6 +49,6 @@ jobs:
         with:
           github_token: ${{ secrets.PAT_FOR_OBSIDIAN }}
           publish_dir: ./public
-          cname: www.jiangjingspace.com   # 👈 自动生成 CNAME 文件
+          cname: jiangjingspace.com   # 👈 自动生成 CNAME 文件
           # 如果你的 GitHub Pages 分支不是 gh-pages，需要在这里指定
           # publish_branch: main
