@@ -23,6 +23,10 @@ jobs:
           submodules: true
           fetch-depth: 0
 
+      # 清空 content
+      - name: Clean Hugo content
+        run: rm -rf ./content/*
+
       # 步骤 2: 检出 Obsidian 仓库笔记到 content 目录
       - name: Checkout Obsidian Notes
         uses: actions/checkout@v4
