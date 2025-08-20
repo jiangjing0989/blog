@@ -23,18 +23,18 @@ jobs:
           submodules: true
           fetch-depth: 0
 
-      # 清空 content
-      - name: Clean Hugo content
-        run: rm -rf ./content/*
-
       # 步骤 2: 检出 Obsidian 仓库笔记到 content 目录
       - name: Checkout Obsidian Notes
         uses: actions/checkout@v4
         with:
           repository: jiangjing0989/note # 替换成你的 Obsidian 仓库名
           token: ${{ secrets.PAT_FOR_OBSIDIAN }}
-          path: content  # 将笔记克隆到 Hugo 仓库的 content 目录
+          path: temp_note  # 将笔记克隆到 Hugo 仓库的 temp_note 临时目录
           ref: main # 替换成你的 Obsidian 仓库主分支名
+      - name: Copy notes to Hugo content
+        run: |
+          rm -rf ./content/*
+          cp -R temp_note/* ./content/
 
       # 步骤 3: 设置 Hugo 环境
       - name: Setup Hugo
