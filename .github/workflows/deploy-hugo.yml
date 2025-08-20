@@ -2,13 +2,15 @@ name: Deploy Hugo Site from Obsidian Notes
 
 # 当 Obsidian 仓库有新 push 时触发此工作流
 on:
-  push:
+  repository_dispatch:
+    types: [note-updated]
+  # push:
     # 这里定义了监听的仓库和分支
     # 注意：需要配置仓库路径
-    branches:
-      - main  # 替换成你的 Obsidian 仓库主分支名
-    paths:
-      - '**'  # 监听所有文件变化
+    # branches:
+      # - main  # 替换成你的 Obsidian 仓库主分支名
+    # paths:
+      # - '**'  # 监听所有文件变化
 
 jobs:
   deploy:
