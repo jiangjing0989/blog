@@ -26,6 +26,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: jiangjing0989/note # 替换成你的 Obsidian 仓库名
+          token: ${{ secrets.PAT_FOR_OBSIDIAN }}
           path: content  # 将笔记克隆到 Hugo 仓库的 content 目录
           ref: main # 替换成你的 Obsidian 仓库主分支名
 
