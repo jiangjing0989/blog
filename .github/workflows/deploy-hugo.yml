@@ -45,7 +45,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.PAT_FOR_OBSIDIAN }}
           publish_dir: ./public
           # 如果你的 GitHub Pages 分支不是 gh-pages，需要在这里指定
           # publish_branch: main
