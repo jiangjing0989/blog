@@ -1,9 +1,9 @@
-name = "Hugo Narrow"
+name = "Jiang Jing's Space"
 license = "MIT"
-licenselink = "https://github.com/tom2almighty/hugo-narrow/blob/main/LICENSE"
+licenselink = "#"
 description = "A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design."
-homepage = "https://github.com/tom2almighty/hugo-narrow"
-demosite = "https://hugo-narrow.vercel.app/"
+homepage = "#"
+demosite = "#"
 tags = [
   "blog",
   "personal",
@@ -40,8 +40,8 @@ browser_support = [
 
 
 [author]
-name = "tom2almighty"
-homepage = "https://github.com/tom2almighty"
+name = "Jiang Jing"
+homepage = "https://github.com/jiangjing0989"
 
 [[dependencies]]
 name = "Tailwind CSS"
