@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技术s on Jiang Jing's Space</title><link>https://jiangjingspace.com/%E6%8A%80%E6%9C%AF/</link><description>Recent content in 技术s on Jiang Jing's Space</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0900</lastBuildDate><atom:link href="https://jiangjingspace.com/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>Python 基础入门</title><link>https://jiangjingspace.com/%E6%8A%80%E6%9C%AF/python/1.-python-%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/</link><pubDate>Tue, 19 Aug 2025 00:00:00 +0900</pubDate><guid>https://jiangjingspace.com/%E6%8A%80%E6%9C%AF/python/1.-python-%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/</guid><description>&lt;h1 id="注释">注释&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Jiang Jing's Space</title><link>https://jiangjingspace.com/post/</link><description>Recent content in Posts on Jiang Jing's Space</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0900</lastBuildDate><atom:link href="https://jiangjingspace.com/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Python 基础入门</title><link>https://jiangjingspace.com/post/%E6%8A%80%E6%9C%AF/python/1.-python-%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/</link><pubDate>Tue, 19 Aug 2025 00:00:00 +0900</pubDate><guid>https://jiangjingspace.com/post/%E6%8A%80%E6%9C%AF/python/1.-python-%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8/</guid><description>&lt;h1 id="注释">注释&lt;/h1>
 &lt;ul>
 &lt;li>单行注释&lt;/li>
 &lt;/ul>
@@ -1227,7 +1227,7 @@
  &lt;blockquote
  class="border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1">
  &lt;div class="prose prose-sm max-w-none">
- &lt;p>变量需要先定义再使用，解释器执行到变量定义的代码时会申请内存空间存放变量值，然后将变量值的内存地址绑定给变量名。&lt;/p></description></item><item><title/><link>https://jiangjingspace.com/%E6%8A%80%E6%9C%AF/git--github/1.-gits-install-and-setting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jiangjingspace.com/%E6%8A%80%E6%9C%AF/git--github/1.-gits-install-and-setting/</guid><description>&lt;h1 id="1-download">1. Download&lt;/h1>
+ &lt;p>变量需要先定义再使用，解释器执行到变量定义的代码时会申请内存空间存放变量值，然后将变量值的内存地址绑定给变量名。&lt;/p></description></item><item><title/><link>https://jiangjingspace.com/post/%E6%8A%80%E6%9C%AF/git--github/1.-gits-install-and-setting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jiangjingspace.com/post/%E6%8A%80%E6%9C%AF/git--github/1.-gits-install-and-setting/</guid><description>&lt;h1 id="1-download">1. Download&lt;/h1>
 &lt;pre>&lt;code>https://gitforwindows.org/
 &lt;/code>&lt;/pre>
 &lt;h1 id="2-setting">2. Setting&lt;/h1>
@@ -1529,7 +1529,7 @@ git config --global user.name &amp;#34;Jiang Jing&amp;#34;&lt;/code>&lt;/pre>
  initCollapse();
  }
 })();
-&lt;/script></description></item><item><title/><link>https://jiangjingspace.com/%E6%8A%80%E6%9C%AF/html--css/1.-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jiangjingspace.com/%E6%8A%80%E6%9C%AF/html--css/1.-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</guid><description>&lt;h1 id="1-代码编辑器">1. 代码编辑器&lt;/h1>
+&lt;/script></description></item><item><title/><link>https://jiangjingspace.com/post/%E6%8A%80%E6%9C%AF/html--css/1.-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jiangjingspace.com/post/%E6%8A%80%E6%9C%AF/html--css/1.-%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/</guid><description>&lt;h1 id="1-代码编辑器">1. 代码编辑器&lt;/h1>
 &lt;pre>&lt;code>Visual Studio Code
 &lt;/code>&lt;/pre>
 &lt;h1 id="2-visual-studio-code-扩展">2. Visual Studio Code 扩展&lt;/h1>
@@ -1541,7 +1541,7 @@ git config --global user.name &amp;#34;Jiang Jing&amp;#34;&lt;/code>&lt;/pre>
 &lt;/code>&lt;/pre>
 &lt;h1 id="3-代码分享">3. 代码分享&lt;/h1>
 &lt;pre>&lt;code>https://codepen.io/
-&lt;/code>&lt;/pre></description></item><item><title/><link>https://jiangjingspace.com/%E6%8A%80%E6%9C%AF/html--css/2.-html-fundamentals/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jiangjingspace.com/%E6%8A%80%E6%9C%AF/html--css/2.-html-fundamentals/</guid><description/></item><item><title/><link>https://jiangjingspace.com/%E6%8A%80%E6%9C%AF/python/test/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jiangjingspace.com/%E6%8A%80%E6%9C%AF/python/test/</guid><description/></item><item><title/><link>https://jiangjingspace.com/%E6%8A%80%E6%9C%AF/%E7%A2%8E%E7%9F%A5%E8%AF%86%E7%82%B9/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jiangjingspace.com/%E6%8A%80%E6%9C%AF/%E7%A2%8E%E7%9F%A5%E8%AF%86%E7%82%B9/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</guid><description>&lt;h1 id="python-regular-expression-quick-guide">Python Regular Expression Quick Guide&lt;/h1>
+&lt;/code>&lt;/pre></description></item><item><title/><link>https://jiangjingspace.com/post/%E6%8A%80%E6%9C%AF/html--css/2.-html-fundamentals/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jiangjingspace.com/post/%E6%8A%80%E6%9C%AF/html--css/2.-html-fundamentals/</guid><description/></item><item><title/><link>https://jiangjingspace.com/post/%E6%8A%80%E6%9C%AF/%E7%A2%8E%E7%9F%A5%E8%AF%86%E7%82%B9/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://jiangjingspace.com/post/%E6%8A%80%E6%9C%AF/%E7%A2%8E%E7%9F%A5%E8%AF%86%E7%82%B9/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/</guid><description>&lt;h1 id="python-regular-expression-quick-guide">Python Regular Expression Quick Guide&lt;/h1>
 &lt;table>
  &lt;thead>
  &lt;tr>
